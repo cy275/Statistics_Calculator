@@ -7,7 +7,6 @@ class Calculator:
     def __init__(self):
         pass
 
-    def z_score(self, z, x, μ, σ, n)
-        self.result = zscore(z, x, μ, σ, n)
+    def z(self, z, x, μ, σ, n):
+        self.result = z_score(z, x, μ, σ, n)
         return self.result
-
