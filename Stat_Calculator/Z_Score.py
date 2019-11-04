@@ -1,5 +1,5 @@
 """
-    z represents z score, tells you how many standard errors there are between the sample mean and the population mean.
+    z represents z score, describes the standard deviation of those sample means (the standard error).
     x represents random sample
     μ represents mean
     σ represents standard deviation
