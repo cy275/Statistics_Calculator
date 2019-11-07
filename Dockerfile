@@ -1,5 +1,7 @@
-FROM python:3
+FROM python:3.7
 
-ADD src /src
+ADD Stat_Calculator
 
-CMD [ "python"]
+RUN pip install --upgrade pop
+
+CMD [ "python", "-m", ""]
