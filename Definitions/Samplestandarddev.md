@@ -1,4 +1,4 @@
-##Sample standard deviation:
+Sample standard deviation:
 
 The standard deviation is the square root of the variance. Thus, the standard deviation of a sample is:
 s = sqrt [ s2 ] = sqrt [ Σ ( xi - x )2 / ( n - 1 ) ]
