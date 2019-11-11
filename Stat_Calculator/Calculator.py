@@ -5,6 +5,7 @@ from Stat_Calculator.Standard_Deviation import standard_deviation
 from Stat_Calculator.Variance_of_Population_Proportion import var_p_p
 from Stat_Calculator.Z_Score import z_score
 from Stat_Calculator.Population_Correlation_Coefficient import  pcc
+from Stat_Calculator.Population_Variance import population_variance
 
 class Calculator:
     result = 0
@@ -34,8 +35,10 @@ class Calculator:
         self.result = z_score(a)
         return self.result
 
-    def populationcoreelationcoefficient(self, x, y):
+    def population_cc(self, x, y):
         self.result = pcc(x, y)
         return self.result
 
-
+    def pv(self, a):
+        self.result = population_variance(a)
+        return self.result
